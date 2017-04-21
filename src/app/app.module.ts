@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { WebSocketComponentComponent } from './web-socket-component/web-socket-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WebSocketComponentComponent
   ],
   imports: [
     BrowserModule,
